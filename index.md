@@ -6,6 +6,24 @@ It's me.
 - Yueling Che
 - Emma Che
 
+## Photo
+![Image](./xplashku.jpg)
+<table border="0">
+  <tr>
+    <td width="75%">
+      <h1>Yueling</h1>
+      <p><b>Assistant Professor</b></p>
+      <p><b>××大学××学院</b></p>
+      <p><b>地址：××市××区××路××号××大学，××楼，邮编×××</b></p>
+    </td>
+    <td width="25%">
+      <img src="/xplashku.jpg" width="100%">
+    </td>
+  </tr>
+</table>
+
+
+
 ## Sex
 Female
 
