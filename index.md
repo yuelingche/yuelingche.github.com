@@ -5,12 +5,15 @@ It's me.
 ## Name
 - Yueling Che
 - Emma Che
+
 ## Sex
 Female
+
 ## Education
 ### UESTC
 1. Bachelor
 2. Master
+
 ### NTU
 1. **PHD**
 2. _Research Assistant_
