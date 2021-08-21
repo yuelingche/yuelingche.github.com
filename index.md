@@ -3,8 +3,8 @@
 It's me.
 
 ## Name
-Yueling Che
-Emma Che
+- Yueling Che
+- Emma Che
 ## Sex
 Female
 ## Education
