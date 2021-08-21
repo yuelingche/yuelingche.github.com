@@ -1,8 +1,21 @@
-## Welcome to GitHub Pages
+## Welcome to Yueling Che's Pages
 
-You can use the [editor on GitHub](https://github.com/yuelingche/yuelingche.github.com/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+It's me.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Name
+- Yueling Che
+- Emma Che
+### Sex
+Female
+### Education
+#### UESTC
+1. Bachelor
+2. Master
+#### NTU
+1. **PHD**
+2. _Research Assistant_
+
+[Website](https://yuelingche.github.io)
 
 ### Markdown
 
