@@ -1,4 +1,4 @@
-# Welcome to Yueling Che's Pages
+# Yue Ling Che
 
 It's me.
 
@@ -26,6 +26,10 @@ It's me.
 
 ## Sex
 Female
+
+## Publication
+1. IEEE J
+2. IEEE TWC
 
 ## Education
 ### UESTC
