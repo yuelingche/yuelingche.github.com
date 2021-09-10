@@ -1,9 +1,9 @@
-# Yue Ling Che
+# Emma Che
 
 It's me.
 
 ## Name
-- Yueling Che
+- Emma Che
 - Emma Che
 
 ## Photo
