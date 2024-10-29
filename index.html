@@ -55,8 +55,8 @@
     <p>
         <font size="6"><b>Yueling Che (车越岭) </b></font><br />
        <br />
-        <font size="4">Associate Professor,</font><br />
-         <font size="4"> Associate Department Head,</font><br />
+        <font size="3">Associate Professor,</font><br />
+         <font size="3"> Associate Department Head,</font><br />
         <font size="3">College of Computer Science and Software Engineering, </font><br/> 
      
          <font size="3">Shenzhen University.</font><br/>
@@ -127,7 +127,7 @@
 </ul>
 <h3>Selected Publications</h3>
     <h4><b>Journals:</b></h4>
-    <ol>
+     <ul>
        
 <li><p>Z. Y. Zhao, <b>Y. L. Che</b>, S. Luo, G. Luo, K. Wu, and V. C. M. Leung, “On Designing Multi-UAV aided Wireless Powered Dynamic Communication via Hierarchical Deep Reinforcement Learning,” IEEE Transactions on Mobile Computing (TMC), forthcoming. DOI: 10.1109/TMC.2024.3439556. </p></li>
  <li><p><b>Y. L. Che</b>, Z. Zhao, S. Luo, K. Wu, L. Duan, and V. C. M. Leung, “UAV-aided wireless energy transfer for sustaining internet of everything in 6G,” Drones, vol. 7, no. 10, pp. 628–639, 2023.</p></li>
@@ -154,9 +154,9 @@
 
 
 
-    </ol>
+     </ul>
      <h4><b>Conferences:</b></h4>
-    <ol>
+     <ul>
 
  <li><p>G. Luo, <b>Y. L. Che</b>, S. Luo. J. Yao, and K. Wu, “Scan-then-Localize UAV Trajectory Design for Wireless Sensor Localization”, IEEE 20th International Conference on Mobility, Sensing and Networking (MSN), accepted (will present orally in Dec. 2024). </p></li>
  <li><p>L. Ma, <b>Y. L. Che</b>, S Luo, and V. C. M. Leung, “UAV-aided 1D Wireless Power Transfer with Non-Linear Energy Harvesting”, IEEE/CIC International Conference on Communications in China (ICCC), Aug. 2024.</p></li>
@@ -175,9 +175,9 @@
 
 
 
-    </ol>
+    </ul>
 <h2 id="projects">Projects and Grants</h2>
-<ol>
+ <ul>
     <li><p>“Research on multi-dimensional wireless resource allocation and mobility management in UAV-aided wireless powered communication systems for Internet of Things”, Grant No. 62072314,   National Natural Science Foundation of China, General Program, 2021.01-2024.12, <b>PI</b>.</p></li>
     <li><p>“Research on wireless powered sustainable cognitive radio communication systems”, Grant No. 61601308,   National Natural Science Foundation of China, Youth Program, 2017.01-2019.12,  <b>PI</b>.</p></li>
     <li><p>“Research on key technologies of the wireless energy transfer enabled new generation wireless communication systems and their applications”, Grant No. 2017A010101033,   Guangdong Provincial Science and Technology Development Special Fund Project, 2017.01-2018.12, Guangdong Provincial Department of Science and Technology,<b>PI</b>.</p></li>
@@ -187,7 +187,7 @@
     <li><p>“Theoretical studies on wireless powered cognitive technology and its applications in the next-generation wireless communication networks”, Grant No. 2016045,  Research Startup Project for Young Teachers of Shenzhen University-Phase I, 2016.06-2018.05, Shenzhen University, <b>PI</b>.</p></li>
     <li><p>“Research on key technologies of wireless power transfer enabled intelligent wireless communication networks”, Grant No. 860/000002110321,  Research Startup Project for Young Teachers of Shenzhen University-Phase II, 2019.11-2022.10, Shenzhen University, <b>PI</b>.</p></li>
     <li><p>“Research on key technologies of wireless charging based new-generation intelligent wireless communication systems”, Grant No. 827000291,   Research funding for high-level talents in Shenzhen (Peacock Project), 2019.01-2021.12, Shenzhen Municipal Human Resources and Social Security Bureau, <b>PI</b>.</p></li>
-</ol>
+</ul>
 <h2 id="teaching">Teaching</h2>
 <ul>
     <li><p>Multimedia Technology and Application, 2020-1</p></li>
@@ -217,58 +217,4 @@
 </table>
 </body>
 
-<script>
-    window.addEventListener('load', function () {
-        let body = document.body;
-        let content = ["❤GNN❤",  "❤Multi-Agent DRL❤",  "❤IOT❤", "❤UAV❤", "❤Energy Efficiency❤","❤Multi-Antenna System❤","❤Wireless Energy Transfer❤",       "❤Stochastic Modeling❤","❤6G❤","❤❤", "❤Dynamic Network Adaptation❤","❤Green Networks❤","❤Intelligent Transport❤","❤Integrated Sensing and Communication❤"
-        ] //自定义内容的数组
-        body.addEventListener('click', function (e) {
-            let x = e.pageX;
-            let y = e.pageY; //当前坐标
-            let randContent = Math.ceil(Math.random() * content.length);
-            let text = new Text(x, y, randContent);
-            let span = document.createElement('span')
-            span.style.color = text.getRandom();
-            text.create(span);
-            setTimeout(function () {
-                text.out(span)
-            }, 1900)
-        })
-
-        function Text(x, y, rand) {
-            this.x = x;
-            this.y = y;
-            this.rand = rand;
-        }
-        Text.prototype.create = function (_this) {
-            let body = document.body;
-            _this.innerHTML = content[this.rand - 1];
-            _this.className = 'text'
-            _this.style.top = this.y - 20 + 'px'
-            _this.style.left = this.x - 50 + 'px'
-            _this.style.animation = 'remove 2s'
-            body.appendChild(_this);
-            let i = 0
-            setInterval(() => {
-                _this.style.top = this.y - 20 - i + 'px'
-                i++
-            }, 10);
-        }
-        Text.prototype.out = function (_this) {
-            _this.remove()
-        }
-        //设置随机颜色
-        Text.prototype.getRandom = function () {
-            let allType = '0,1,2,3,4,5,6,7,8,9,a,b,c,d,e,f'; //16进制颜色
-            let allTypeArr = allType.split(','); //通过','分割为数组
-            let color = '#';
-            for (var i = 0; i < 6; i++) {
-                //随机生成一个0-16的数
-                var random = parseInt(Math.random() * allTypeArr.length);
-                color += allTypeArr[random];
-            }
-            return color; //返回随机生成的颜色
-        }
-    })
-</script>
 </html>
